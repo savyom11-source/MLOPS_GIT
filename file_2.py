@@ -23,4 +23,9 @@ a="Welcome"
 # git remote add origin <repo url> --> to add repo from git hub
 #git pull - to pull from branch
 # git push origin master - to push to branch
+
+#TAG VERSION START HERE
+# git tag -a v1.0.0 <sha id> --> To add a version tag at particular commit
+#fn+i -> to go to insert mode add comment about version and esc-> :wq!
+# git tag -d <version number> ->. to delete version  
 print (a)
